@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Abdul · AI for your shop · BLANQ</title>
-<meta name="description" content="I build AI that does your shop's boring repetitive work, so your team does not. First automation 350, you see it work before you pay for more.">
+<title>Abdul Quayum · AI for your shop / IA pour votre atelier</title>
+<meta name="description" content="I build AI that does your shop's repetitive work. Je crée des systemes IA qui font le travail repetitif de votre atelier. First automation 350.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@500;600;700;800&family=Anton&family=Spectral:ital,wght@1,500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -9,69 +9,89 @@
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 body{font-family:'Archivo',system-ui,sans-serif;background:var(--paper);color:var(--ink);}
 .wrap{max-width:540px;margin:0 auto;}
-.hero{background:var(--ink2);color:var(--cream);padding:30px 22px 28px;position:relative;overflow:hidden;}
+.fr{font-family:'Spectral';font-style:italic;}
+.hero{background:var(--ink2);color:var(--cream);padding:28px 22px 26px;position:relative;overflow:hidden;}
 .dots{position:absolute;inset:0;opacity:.07;color:var(--orange);background-image:radial-gradient(currentColor 2px,transparent 2.5px);background-size:36px 36px;}
 .glow{position:absolute;width:520px;height:520px;border-radius:50%;top:-260px;right:-220px;background:radial-gradient(closest-side,rgba(229,67,30,.5),transparent 70%);pointer-events:none;}
 .rel{position:relative;}
-.logo{font-family:'Anton';letter-spacing:.26em;text-transform:uppercase;font-size:14px;color:var(--orange);}
-.tag{font-family:'Space Mono';font-size:11px;color:#c9bfa6;letter-spacing:.05em;margin-top:3px;}
-h1{font-family:'Archivo Black';font-size:34px;line-height:.98;letter-spacing:-.02em;margin-top:20px;}
+.aqlogo{height:74px;width:auto;display:block;}
+.tag{font-family:'Space Mono';font-size:11px;color:#c9bfa6;letter-spacing:.05em;margin-top:8px;}
+h1{font-family:'Archivo Black';font-size:32px;line-height:.98;letter-spacing:-.02em;margin-top:18px;}
 h1 .o{background:var(--orange);color:var(--ink);padding:0 8px;}
-.lede{font-size:16px;line-height:1.45;color:#e9e1cd;margin-top:16px;font-weight:600;}
-.proof{margin-top:18px;font-family:'Spectral';font-style:italic;font-size:16px;line-height:1.4;color:#fff;border-left:3px solid var(--orange);padding-left:13px;}
+.h1fr{font-family:'Spectral';font-style:italic;font-size:19px;line-height:1.2;color:#e9d9b8;margin-top:9px;}
+.lede{font-size:15px;line-height:1.45;color:#e9e1cd;margin-top:16px;font-weight:600;}
+.lede .fr{display:block;font-size:14px;color:#bdb39a;margin-top:5px;font-weight:500;}
+.proof{margin-top:16px;font-size:14px;line-height:1.4;color:#fff;border-left:3px solid var(--orange);padding-left:13px;}
+.proof .fr{display:block;color:#cabf9f;margin-top:5px;font-size:13.5px;}
 .blade{height:6px;background:var(--orange);}
 .sec{padding:24px 22px;}
-.kick{font-family:'Anton';letter-spacing:.16em;text-transform:uppercase;font-size:13px;color:var(--orange);margin-bottom:14px;}
-.tile{background:#fff;border:2px solid var(--ink);border-radius:12px;padding:14px 15px;margin-bottom:11px;box-shadow:4px 4px 0 rgba(20,18,16,.12);}
-.tile b{font-family:'Archivo Black';font-size:17px;display:block;margin-bottom:3px;}
-.tile span{font-size:13.5px;color:var(--soft);line-height:1.4;}
-.offer{background:var(--orange);color:var(--ink);padding:26px 22px;}
-.offer h2{font-family:'Archivo Black';font-size:25px;line-height:1.04;letter-spacing:-.02em;}
-.offer p{font-size:15px;line-height:1.5;margin-top:10px;font-weight:600;}
-.tiers{display:flex;gap:8px;margin-top:18px;}
-.tier{flex:1;background:var(--ink);color:var(--cream);border-radius:10px;padding:12px 8px;text-align:center;}
-.tier .n{font-family:'Archivo Black';font-size:20px;}
-.tier .l{font-family:'Space Mono';font-size:10px;color:#c9bfa6;text-transform:uppercase;letter-spacing:.04em;margin-top:3px;line-height:1.3;}
-.cta{padding:24px 22px 16px;}
-.btn{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-family:'Anton';letter-spacing:.06em;text-transform:uppercase;font-size:17px;padding:16px;border-radius:12px;border:2px solid var(--ink);color:var(--ink);margin-bottom:10px;}
+.kick{font-family:'Anton';letter-spacing:.13em;text-transform:uppercase;font-size:13px;color:var(--orange);margin-bottom:14px;}
+.kick .fr{font-family:'Spectral';font-style:italic;text-transform:none;letter-spacing:0;color:var(--muted);font-size:13px;}
+.tile{background:#fff;border:2px solid var(--ink);border-radius:12px;padding:13px 15px;margin-bottom:11px;box-shadow:4px 4px 0 rgba(20,18,16,.12);}
+.tile b{font-family:'Archivo Black';font-size:16px;display:block;}
+.tile .tf{font-family:'Spectral';font-style:italic;font-size:13.5px;color:var(--orange);margin:1px 0 6px;}
+.tile span{font-size:13px;color:var(--soft);line-height:1.4;display:block;}
+.tile span.fr{color:#8f876f;margin-top:4px;font-size:12.5px;}
+.offer{background:var(--orange);color:var(--ink);padding:24px 22px;}
+.offer h2{font-family:'Archivo Black';font-size:24px;line-height:1.04;letter-spacing:-.02em;}
+.offer .h2fr{font-family:'Spectral';font-style:italic;font-size:16px;margin-top:4px;}
+.offer p{font-size:14px;line-height:1.45;margin-top:10px;font-weight:600;}
+.offer p .fr{display:block;font-weight:500;margin-top:5px;font-size:13px;color:#3a1a0e;}
+.tiers{display:flex;gap:8px;margin-top:16px;}
+.tier{flex:1;background:var(--ink);color:var(--cream);border-radius:10px;padding:11px 6px;text-align:center;}
+.tier .n{font-family:'Archivo Black';font-size:19px;}
+.tier .l{font-family:'Space Mono';font-size:9px;color:#c9bfa6;text-transform:uppercase;letter-spacing:.03em;margin-top:3px;line-height:1.3;}
+.cta{padding:22px 22px 8px;}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-family:'Anton';letter-spacing:.05em;text-transform:uppercase;font-size:16px;padding:15px;border-radius:12px;border:2px solid var(--ink);color:var(--ink);margin-bottom:10px;}
+.btn small{font-family:'Spectral';font-style:italic;text-transform:none;font-size:12px;opacity:.8;}
 .btn.call{background:var(--orange);border-color:var(--orange);}
 .btn.wa{background:var(--green);border-color:var(--green);color:#fff;}
 .btn.mail{background:#fff;}
-.trust{text-align:center;font-family:'Space Mono';font-size:12px;color:var(--soft);line-height:1.7;padding:6px 22px 30px;}
+.agency{display:flex;align-items:center;justify-content:center;gap:11px;padding:14px 22px 6px;}
+.agency .lab{font-family:'Space Mono';font-size:11px;color:var(--muted);text-align:right;line-height:1.4;}
+.agency img{height:46px;width:46px;border-radius:9px;border:2px solid var(--ink);}
+.trust{text-align:center;font-family:'Space Mono';font-size:11px;color:var(--soft);line-height:1.7;padding:4px 22px 30px;}
+.trust .fr{display:block;color:var(--muted);}
 .trust b{color:var(--ink);}
 </style></head><body>
 <div class="wrap">
  <div class="hero"><div class="dots"></div><div class="glow"></div><div class="rel">
-   <div class="logo">BLANQ · AI Setup</div>
-   <div class="tag">Abdul Quayum · Saint-Laurent</div>
+   <img class="aqlogo" src="aq-cream.png" alt="Abdul Quayum">
+   <div class="tag">AI Setup · Mise en place IA · Saint-Laurent</div>
    <h1>Stop paying people to <span class="o">retype things.</span></h1>
-   <div class="lede">I build AI that does your shop's boring repetitive work, so your team does not have to.</div>
-   <div class="proof">I am the AI developer at R.S. Electronique, a PCB factory right here in Saint-Laurent. I do this for a real factory every day, not slideshows.</div>
+   <div class="h1fr">Arretez de payer pour ressaisir les memes choses.</div>
+   <div class="lede">I build AI that does your shop's boring repetitive work, so your team does not have to.<span class="fr">Je cree des systemes IA qui font le travail repetitif de votre atelier, pour liberer votre equipe.</span></div>
+   <div class="proof">I am the AI developer at R.S. Electronique, a PCB factory right here in Saint-Laurent. I do this for a real factory every day, not slideshows.<span class="fr">Je suis le developpeur IA chez R.S. Electronique, une usine de circuits imprimes ici a Saint-Laurent. Je fais ca pour une vraie usine chaque jour.</span></div>
  </div></div>
  <div class="blade"></div>
 
  <div class="sec">
-   <div class="kick">What I take off your plate</div>
-   <div class="tile"><b>Quotes that write themselves</b><span>You enter the specs or the parts list, a clean quote comes out in two minutes instead of an afternoon.</span></div>
-   <div class="tile"><b>Orders to invoices, no retyping</b><span>Orders come in by email or phone and turn into invoices by themselves. Nobody keys them in twice.</span></div>
-   <div class="tile"><b>Logs, inventory, reorders on autopilot</b><span>Stock, batch records and reorder reminders track themselves in one place, so nothing slips.</span></div>
+   <div class="kick">What I take off your plate <span class="fr">/ Ce que je vous enleve des mains</span></div>
+   <div class="tile"><b>Quotes that write themselves</b><div class="tf">Des soumissions qui s'ecrivent toutes seules</div><span>Enter the specs or the parts list, a clean quote comes out in two minutes instead of an afternoon.</span><span class="fr">Entrez les specs ou la liste de pieces, une soumission propre sort en deux minutes.</span></div>
+   <div class="tile"><b>Orders to invoices, no retyping</b><div class="tf">Des commandes aux factures, sans ressaisie</div><span>Orders come in by email or phone and turn into invoices by themselves. Nobody keys them twice.</span><span class="fr">Les commandes deviennent des factures toutes seules. Personne ne les ressaisit.</span></div>
+   <div class="tile"><b>Logs, inventory, reorders on autopilot</b><div class="tf">Inventaire et reappros automatises</div><span>Stock, batch records and reorder reminders track themselves in one place, so nothing slips.</span><span class="fr">Stock, registres de lots et rappels de reappro se suivent au meme endroit. Rien ne passe.</span></div>
  </div>
 
  <div class="offer">
    <h2>Start with one. 350 flat.</h2>
-   <p>I build you one working automation so you see it run on your real data before you ever trust me with more. If it does not save you hours, you do not pay.</p>
+   <div class="h2fr">Commencez avec une seule. 350 fixe.</div>
+   <p>I build you one working automation so you see it run on your real data before you ever trust me with more. If it does not save you hours, you do not pay.<span class="fr">Je batis une automatisation qui fonctionne, sur vos vraies donnees, avant que vous m'en confiez plus. Si ca ne vous fait pas gagner des heures, vous ne payez pas.</span></p>
    <div class="tiers">
-     <div class="tier"><div class="n">$350</div><div class="l">one proof build</div></div>
-     <div class="tier"><div class="n">$850</div><div class="l">full workflow</div></div>
-     <div class="tier"><div class="n">$300</div><div class="l">/mo ongoing</div></div>
+     <div class="tier"><div class="n">$350</div><div class="l">one proof · une preuve</div></div>
+     <div class="tier"><div class="n">$850</div><div class="l">full build · flux complet</div></div>
+     <div class="tier"><div class="n">$300</div><div class="l">/mo · par mois</div></div>
    </div>
  </div>
 
  <div class="cta">
-   <a class="btn call" href="tel:+14388674912">Call or text Abdul</a>
-   <a class="btn wa" href="https://wa.me/14388674912?text=Hi%20Abdul,%20saw%20your%20flyer,%20interested%20in%20the%20AI%20setup">WhatsApp me</a>
-   <a class="btn mail" href="mailto:adekunleabdulquayum7@gmail.com?subject=AI%20setup%20for%20my%20shop">Email me</a>
+   <a class="btn call" href="tel:+14388674912">Call or text&nbsp;<small>Appelez ou textez</small></a>
+   <a class="btn wa" href="https://wa.me/14388674912?text=Hi%20Abdul,%20saw%20your%20flyer,%20interested%20in%20the%20AI%20setup">WhatsApp</a>
+   <a class="btn mail" href="mailto:admin@blanqdigital.com?subject=AI%20setup%20for%20my%20shop">Email&nbsp;<small>Ecrivez-moi</small></a>
  </div>
- <div class="trust">No lock-in. No interest. You own everything I build.<br><b>BLANQ</b> · 438-867-4912</div>
+ <div class="agency">
+   <div class="lab">An agency by Abdul<br>Une agence par Abdul</div>
+   <img src="blanq.png" alt="BLANQ">
+ </div>
+ <div class="trust">No lock-in. No interest. You own everything I build.<span class="fr">Aucun engagement. Aucun interet. Tout ce que je batis vous appartient.</span><b>admin@blanqdigital.com · 438-867-4912</b></div>
 </div>
 </body></html>
